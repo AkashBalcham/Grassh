@@ -17,9 +17,7 @@ function Landing(props) {
                         and maybe try understanding your feelings.
                     </h2>
                     <Link id="see-more" to="">
-                        
-                            <img id="see-more-button" src={seeMore} alt="" />
-                        
+                        <img id="see-more-button" src={seeMore} alt="" />
                     </Link>
                 </div>
                 <div id="right-content">
