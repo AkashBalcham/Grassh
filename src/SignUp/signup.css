@@ -69,7 +69,11 @@
     color: #5A4739;
     border-radius: 4px;
     margin-left: 30%;
+    transition: all 200ms;
+}
+#signup-button:hover{
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    transform: translateY(-20%);
 }
 
 #or-sign-up-line{

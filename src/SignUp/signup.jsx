@@ -5,6 +5,7 @@ import leftVec from "../Images/login_left.png"
 import googleLogo from "../Images/googleLogo.svg"
 import metaLogo from "../Images/metaLogo.svg"
 import appleLogo from "../Images/appleLogo.svg"
+import axios from "axios"
 
 function SignUp() {
     const [formData, setFormData] = useState({
@@ -43,8 +44,8 @@ function SignUp() {
                         <input type="email" id="mail-input" name="email" value={formData.email} onChange={handleChange} autoComplete="off" required/>
                         <p>Password <span style={{color: 'red'}}>*</span></p>
                         <input type="password" id="pwd-input" name="password" value={formData.password} onChange={handleChange} required/>
-                        <button id="signup-button">Sign up</button>
                     </form>
+                        <Link to="/home"><button id="signup-button">Sign up</button></Link>
                     <p id="or-sign-up-line">or Sign up with</p>
                     <div className="logo-box">
                         <button title="Coming soon" disabled>

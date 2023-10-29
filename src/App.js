@@ -4,6 +4,7 @@ import './App.css';
 import Landing from './Landing/landing'
 import Login from './Login/login';
 import SignUp from './SignUp/signup'
+import ChatBot from './ChatBot/chatbot';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
             <Route path="/" element={<Landing page="landing"/>} />
             <Route path="/login" element={<Login />} />
             <Route path="/sign-up" element={<SignUp />}/>
+            <Route path="/home" element={<ChatBot />} />
           </Routes>
         </div>
     </Router>
